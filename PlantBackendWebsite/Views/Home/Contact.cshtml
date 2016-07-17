@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "Contact";
+}
+<h2>@ViewData["Title"].</h2>
+<h3>@ViewData["Message"]</h3>
+@section Scripts{
+    <script src="~/lib/ng2/es6-shim.js"></script>
+    <script src="~/lib/ng2/system-polyfills.js"></script>
+    <script src="~/lib/ng2/angular2-polyfills.js"></script>
+    <script src="~/lib/ng2/system.src.js"></script>
+    <script src="~/lib/ng2/angular2.dev.js"></script>
+    
+    <script>
+        System.config({
+            map: {
+                app: "/app",
+                rxjs: '/lib/rxjs' // added this map section
+            },
+            packages:{
+                app: { defaultJSExtensions:"js",},
+                rxjs: { defaultExtension: "js" } // and added this to packages
+            },
+            paths: {
+                '/app/*': '/app/*'
+            },
+        });
+        System.import("/app/main")
+            .then(null, console.error.bind(console));
+    </script>
+    <environment names="Production">
+        <script>
+            angular.enableProdMode()
+        </script>
+    </environment>
+}
+<content-page></content-page>
+
+<address>
+    One Microsoft Way<br />
+    Redmond, WA 98052-6399<br />
+    <abbr title="Phone">P:</abbr>
+    425.555.0100
+</address>
+
+<address>
+    <strong>Support:</strong> <a href="mailto:Support@example.com">Support@example.com</a><br />
+    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+</address>

@@ -1,0 +1,29 @@
+{
+  "name": "asp.net",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "typings install",
+    "typings": "typings",
+    "start": "mode wwwroot/app/main.js "
+  },
+  "dependencies": {
+    "angular2": "2.0.0-beta.17",
+    "es6-shim": "0.35.1",
+    "systemjs": "0.19.31",
+    "rxjs": "5.0.0-beta.10",
+    "requirejs": "2.2.0",
+    "subject": "0.5.10"
+  },
+  "devDependencies": {
+    "gulp": "3.8.11",
+    "gulp-concat": "2.5.2",
+    "gulp-cssmin": "0.1.7",
+    "gulp-uglify": "1.2.0",
+    "gulp-sourcemap": "1.0.1",
+    "gulp-sourcemaps": "1.6.0",
+    "gulp-typescript": "2.13.6",
+    "rimraf": "2.2.8",
+    "typescript": "1.8.10"
+  }
+}
