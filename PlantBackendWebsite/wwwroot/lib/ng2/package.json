@@ -2,7 +2,7 @@
   "_args": [
     [
       "es6-shim@0.35.1",
-      "D:\\Code\\ugs-admin-site-user\\plant\\PlantBackendWebsite"
+      "D:\\Code\\ugs-admin-site-user\\PlantTest\\PlantBackendWebsite"
     ]
   ],
   "_from": "es6-shim@0.35.1",
@@ -35,7 +35,7 @@
   "_shasum": "a23524009005b031ab4a352ac196dfdfd1144ab7",
   "_shrinkwrap": null,
   "_spec": "es6-shim@0.35.1",
-  "_where": "D:\\Code\\ugs-admin-site-user\\plant\\PlantBackendWebsite",
+  "_where": "D:\\Code\\ugs-admin-site-user\\PlantTest\\PlantBackendWebsite",
   "author": {
     "name": "Paul Miller",
     "url": "http://paulmillr.com"
