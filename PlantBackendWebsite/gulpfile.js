@@ -59,7 +59,7 @@ gulp.task("ng2", function() {
 
 gulp.task("rxjs", function () {
     gulp.src([
-        "node_modules/rxjs/*.*"
+        "node_modules/rxjs/**/*.*"
     ])
     .pipe(gulp.dest("wwwroot/lib/rxjs"));
 });

@@ -2,7 +2,7 @@
   "_args": [
     [
       "rxjs@5.0.0-beta.10",
-      "D:\\Code\\ugs-admin-site-user\\plant\\PlantBackendWebsite"
+      "D:\\Code\\ugs-admin-site-user\\PlantTest\\PlantBackendWebsite"
     ]
   ],
   "_from": "rxjs@5.0.0-beta.10",
@@ -35,7 +35,7 @@
   "_shasum": "92d4f94ddd27d978ca99d19dcdeac42cf1401b7a",
   "_shrinkwrap": null,
   "_spec": "rxjs@5.0.0-beta.10",
-  "_where": "D:\\Code\\ugs-admin-site-user\\plant\\PlantBackendWebsite",
+  "_where": "D:\\Code\\ugs-admin-site-user\\PlantTest\\PlantBackendWebsite",
   "author": {
     "email": "blesh@netflix.com",
     "name": "Ben Lesh"
